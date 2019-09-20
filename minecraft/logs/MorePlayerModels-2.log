@@ -1,0 +1,14 @@
+[19:22:18][FINE/MorePlayerModels][noppes.mpm.MorePlayerModels:104] Tue Sep 17 19:22:18 EDT 2019
+[19:22:18][FINE/MorePlayerModels][noppes.mpm.MorePlayerModels:104] Loading
+[19:27:12][WARNING/MorePlayerModels][noppes.mpm.client.WebApi:116] <html><body><h1>403 Forbidden</h1>Request forbidden by administrative rules.</body></html>
+[19:27:12][SEVERE/MorePlayerModels][noppes.mpm.client.WebApi:118] com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 22 path $
+	at com.google.gson.JsonParser.parse(JsonParser.java:65)
+	at com.google.gson.JsonParser.parse(JsonParser.java:45)
+	at noppes.mpm.client.WebApi.run(WebApi.java:107)
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 22 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559)
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:542)
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425)
+	at com.google.gson.JsonParser.parse(JsonParser.java:60)
+	... 2 more
